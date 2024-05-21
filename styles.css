@@ -34,7 +34,8 @@ header {
 .ascii-art {
     white-space: pre; /* Preserves whitespace */
     font-family: monospace; /* Ensures ASCII art displays properly */
-    font-size: 90%; /* Adjust font size as needed */
+    color:#ae00ff;
+    font-size: 70%; /* Adjust font size as needed */
     line-height: 1.2; /* Adjust line height as needed */
 }
 
@@ -56,7 +57,7 @@ li {
 }
 
 a {
-    text-decoration: none;
+    color: rgb(255, 255, 255);
 }
 
 a:visited {
@@ -75,7 +76,7 @@ text-decoration: none;
 }
 
 nav a:hover {
-    color: #ff0000;
+    color: #ae00ff;
 }
 
 nav a:not(:last-child):after {
